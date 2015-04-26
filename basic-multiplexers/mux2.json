@@ -1,0 +1,16 @@
+{
+ "name":"mux-2",
+ "ports":
+  [
+   {"name":"in0", "direction":"in"},
+   {"name":"in1", "direction":"in"},
+   {"name":"select", "direction":"in"},
+   {"name":"out", "direction":"out"}
+  ],
+"configBits":[],
+"functions":
+  [
+    "out = (in0 & !select) | (in1 & select)"
+  ]
+}
+

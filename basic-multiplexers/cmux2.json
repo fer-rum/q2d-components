@@ -1,0 +1,18 @@
+{
+ "name":"cmux-2",
+ "ports":
+  [
+   {"name":"in0", "direction":"in"},
+   {"name":"in1", "direction":"in"},
+   {"name":"out", "direction":"out"}
+  ],
+"configBits":
+[
+  {"name":"conf", "size":1}
+],
+"functions":
+  [
+    "out = (in0 & !conf_0) | (in1 & conf_0)"
+  ]
+}
+

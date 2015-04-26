@@ -1,0 +1,20 @@
+{
+ "name":"cmux-4",
+ "ports":
+  [
+   {"name":"in0", "direction":"in"},
+   {"name":"in1", "direction":"in"},
+   {"name":"in2", "direction":"in"},
+   {"name":"in3", "direction":"in"},
+   {"name":"out", "direction":"out"}
+  ],
+"configBits":
+[
+  {"name":"conf", "size":2}
+],
+"functions":
+  [
+    "out = (in0 & !conf_0 & !conf_1) | (in1 & conf_0 & !conf_1) | (in2 & !conf_0 & conf_1) | (in3 & conf_0 & conf_1)"
+  ]
+}
+

@@ -1,0 +1,14 @@
+{
+ "name":"not",
+ "ports":
+  [
+   {"name":"in0", "direction":"in"},
+   {"name":"out", "direction":"out"}
+  ],
+"configBits":[],
+"functions":
+  [
+    "out = not in0"
+  ]
+}
+

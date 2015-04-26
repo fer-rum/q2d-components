@@ -1,0 +1,16 @@
+{
+ "name":"false",
+ "ports":
+  [
+   {"name":"out", "direction":"out"}
+  ],
+"configBits":
+[
+	{"name":"temp", "size":1}
+],
+"functions":
+  [
+    "out = temp_0 and not temp_0"
+  ]
+}
+

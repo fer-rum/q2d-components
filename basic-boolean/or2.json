@@ -1,0 +1,15 @@
+{
+ "name":"or-2",
+ "ports":
+  [
+   {"name":"in0", "direction":"in"},
+   {"name":"in1", "direction":"in"},
+   {"name":"out", "direction":"out"}
+  ],
+"configBits":[],
+"functions":
+  [
+    "out = in0 or in1"
+  ]
+}
+
