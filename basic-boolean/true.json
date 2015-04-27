@@ -4,13 +4,10 @@
   [
    {"name":"out", "direction":"out"}
   ],
-"configBits":
-[
-	{"name":"temp", "size":1}
-],
+"configBits": [],
 "functions":
   [
-    "out = temp_0 or not temp_0"
+    "[out]"
   ]
 }
 
